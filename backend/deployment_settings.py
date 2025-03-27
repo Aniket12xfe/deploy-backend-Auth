@@ -31,7 +31,7 @@ MIDDLEWARE = [
 CORS_ALLOW_CREDENTIALS = True
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",  # ✅ Allow localhost:3000
+    "http://localhost:3000",
     "https://deploy-frontend-auth.onrender.com",  # ✅ Only allow specific frontend origin
 ]
 CSRF_TRUSTED_ORIGINS = [
