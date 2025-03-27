@@ -28,12 +28,12 @@ MIDDLEWARE = [
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
 
-# CORS_ALLOWED_ORIGINS = [
-#     "http://localhost:3000",  # ✅ Only allow specific frontend origin
-# ]
-# CSRF_TRUSTED_ORIGINS = [
-#     "http://localhost:3000",  # ✅ Trust frontend for CSRF
-# ]
+CORS_ALLOWED_ORIGINS = [
+    "https://deploy-frontend-auth.onrender.com",  # ✅ Only allow specific frontend origin
+]
+CSRF_TRUSTED_ORIGINS = [
+    "https://deploy-frontend-auth.onrender.com",  # ✅ Trust frontend for CSRF
+]
 
 STORAGES = {
     "default": {
